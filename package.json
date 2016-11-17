@@ -1,0 +1,26 @@
+{
+  "name": "polling-app-rethinkdb",
+  "version": "1.0.0",
+  "description": "creating realtime web polling application using rethinkdb, nodejs and angular",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashani-atapattu/polling-app.git"
+  },
+  "author": "hashani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashani-atapattu/polling-app/issues"
+  },
+  "homepage": "https://github.com/hashani-atapattu/polling-app#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^1.5.1"
+  }
+}
